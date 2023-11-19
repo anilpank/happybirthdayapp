@@ -66,8 +66,8 @@ fun GreetingText(message: String, from: String, modifier: Modifier = Modifier) {
 fun BirthdayCardPreview() {
     HappyBirthdayTheme {
         GreetingText(
-            message = "Happy Birthday Wilson!",
-            from = "from Walter"
+            message = "Happy Birthday Emma!",
+            from = "from Watson"
         )
     }
 }
